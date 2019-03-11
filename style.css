@@ -73,9 +73,18 @@ section p{
 font-size: 1.5rem;
 }
 
+div#intro {
+    /* position  */
+    bottom: 0px;
+    background: rgba(44, 38, 38, 0.7);
+    /* display: flex; */
+    width: 100%
+}
+
 /*Section Images*/
 section#home {
     background: url('media/TomVar.jpg') no-repeat center center/cover;
+    
 }
 
 section#about {
@@ -87,5 +96,5 @@ section#food {
 }
 
 section#contact {
-    /*background: url('media/') no-repeat center center/cover;*/
+    background: url('media/ghost.jpg') no-repeat center center/cover;
 }
